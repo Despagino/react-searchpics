@@ -1,0 +1,24 @@
+html {
+    background-color: rgba(216, 216, 216, 0.975);
+}
+
+.searchForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.imageContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));   
+    grid-gap: 0 1px;
+    grid-auto-rows: 60px;
+    margin-top: 30px;
+}
+
+.imageContainer img {
+    width: 250px;
+    grid-row-end: span 2;
+}
